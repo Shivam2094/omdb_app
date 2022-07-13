@@ -1,19 +1,4 @@
-# clean_arch
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#omdb app
 
 
 
@@ -55,4 +40,17 @@ samples, guidance on mobile development, and a full API reference.
 - Fetch movie details when a movie is selected from the list
 - Share movie via other apps
 - Display error dialog if no movies detais fetched due to network failure/Server Exception
+- Tests written for core functionalities
+
+
+## External packages used
+
+- equatable -> to compare movie and movie detail objects and check for equality
+- dartz -> functonal programming package. used to get either Failure or Success object from same function call.
+- data_connection_checker -> to check availability of internet connection.
+- provider -> for state management. 
+- flutter_svg -> to display svg assets.
+- cached_network_image -> to display movie posters and cache them
+- share_plus -> to share movie using other apps or copy movie title.
+- 
 

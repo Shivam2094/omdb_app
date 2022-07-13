@@ -26,3 +26,7 @@ samples, guidance on mobile development, and a full API reference.
 - Run 'flutter doctor' in the terminal to make sure flutter and dart are installed correctly.
 - Run 'flutter pub get' in the terminal to install rerquired dependencies.
 - Run the 'main.dart' file in the emulator or android device to start the application.
+
+# More about the application
+
+- The application is developed using the Clean Architecture and the MVVM (Model View-Model Model) design pattern.

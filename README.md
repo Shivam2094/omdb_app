@@ -30,3 +30,8 @@ samples, guidance on mobile development, and a full API reference.
 # More about the application
 
 - The application is developed using the Clean Architecture and the MVVM (Model View-Model Model) design pattern.
+- The application has one fetaure that displays the list of movies and their details and the fetaure is divided into three layers - Data, Domain, Presentation. 
+- The presentation layer is responsible for displaying app screens and managing UI of the application through various widgets. The presentation layer also holds View-Models. View-Models receive data request from Views(Activities and Widgets) and then update the state of widgets through events coneveyed to the views by ChangeNotifier and Provider package.
+- The domain layer is not susceptible to changes in the data sources and is independent of the front-end framework used for managing the UI. It is reponsible of managing the business logic through use cases and business objects (entities). 
+- The abstract repository class in domain layer makes use cases independent of data layer (data sources -> local database or remote servers). This abstract class is a contract of what repository must do and its implemented using the repository class in data layer.
+- The data layer is responsible for fetching data from remote database or local databases inside the device. The data layer holds the data model which is then passed as entity to the presentation layer. The use of models makes it flexible to have data from the source in any format (XML, Json, etc.) and therefore makes the architecture loosely coupled.

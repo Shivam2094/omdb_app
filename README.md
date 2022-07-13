@@ -30,7 +30,7 @@ samples, guidance on mobile development, and a full API reference.
 # More about the application
 
 - The application is developed using the Clean Architecture and the MVVM (Model View-Model Model) design pattern.
-![Clean architecture by uncle Bob](https://github.com/Shivam2094/omdb_app/edit/master/Screen Shot 2022-07-13 at 2.23.43 pm.png)
+![Clean architecture by uncle Bob](https://github.com/Shivam2094/omdb_app/clean_arch.png)
 - The application has one fetaure that displays the list of movies and their details and the fetaure is divided into three layers - Data, Domain, Presentation. 
 - The presentation layer is responsible for displaying app screens and managing UI of the application through various widgets. The presentation layer also holds View-Models. View-Models receive data request from Views(Activities and Widgets) and then update the state of widgets through events coneveyed to the views by ChangeNotifier and Provider package.
 - The domain layer is not susceptible to changes in the data sources and is independent of the front-end framework used for managing the UI. It is reponsible of managing the business logic through use cases and business objects (entities). 

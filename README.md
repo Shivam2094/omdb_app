@@ -45,3 +45,14 @@ samples, guidance on mobile development, and a full API reference.
 
 - Data flow and call flow diagram for the OMDB app 
 - ![Diagram](https://github.com/Shivam2094/omdb_app/blob/master/omdb.png)
+
+## Tasks completed
+
+- Fetch 4 sets of movies from api and show combined results in a list
+- Display error dialog if no movies fetched due to network failure/Server Exception
+- Save favorite movies in a list
+- Cache list of favorite movies in Shared prefernces
+- Fetch movie details when a movie is selected from the list
+- Share movie via other apps
+- Display error dialog if no movies detais fetched due to network failure/Server Exception
+

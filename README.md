@@ -52,5 +52,5 @@
 - flutter_svg -> to display svg assets.
 - cached_network_image -> to display movie posters and cache them
 - share_plus -> to share movie using other apps or copy movie title.
-- 
+
 

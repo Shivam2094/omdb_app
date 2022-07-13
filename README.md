@@ -44,4 +44,4 @@ samples, guidance on mobile development, and a full API reference.
 
 
 - Data flow and call flow diagram for the OMDB app 
-- [!Diagram](https://github.com/Shivam2094/omdb_app/blob/master/omdb.png)
+- ![Diagram](https://github.com/Shivam2094/omdb_app/blob/master/omdb.png)

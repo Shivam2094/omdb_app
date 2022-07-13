@@ -41,3 +41,7 @@ samples, guidance on mobile development, and a full API reference.
 - The domain layer is not susceptible to changes in the data sources and is independent of the front-end framework used for managing the UI. It is reponsible of managing the business logic through use cases and business objects (entities). 
 - The abstract repository class in domain layer makes use cases independent of data layer (data sources -> local database or remote servers). This abstract class is a contract of what repository must do and its implemented using the repository class in data layer.
 - The data layer is responsible for fetching data from remote database or local databases inside the device. The data layer holds the data model which is then passed as entity to the presentation layer. The use of models makes it flexible to have data from the source in any format (XML, Json, etc.) and therefore makes the architecture loosely coupled.
+
+
+- Data flow and call flow diagram for the OMDB app 
+- [!Diagram](https://github.com/Shivam2094/omdb_app/blob/master/omdb.png)

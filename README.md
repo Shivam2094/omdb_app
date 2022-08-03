@@ -31,9 +31,9 @@
 - Data flow and call flow diagram for the OMDB app 
 - ![Diagram](https://github.com/Shivam2094/omdb_app/blob/master/omdb.png)
 
-## Tasks completed
+## Completed
 
-- Fetch 4 sets of movies from api and show combined results in a list
+- Fetch movies from api and show combined results in a list
 - Display error dialog if no movies fetched due to network failure/Server Exception
 - Save favorite movies in a list
 - Cache list of favorite movies in Shared prefernces
